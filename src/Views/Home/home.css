@@ -1,0 +1,16 @@
+.titel {
+    background-color: white;
+}
+
+@media screen and (max-width: 1080px){
+    .img1 {
+        width: 150px;
+    }
+    .img2 {
+        width: 350px;
+    }
+  }
+  
+@media screen and (max-width: 1850px){
+
+  }

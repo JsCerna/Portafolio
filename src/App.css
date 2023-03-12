@@ -1,0 +1,56 @@
+section {
+    height: 100vh;
+}
+
+body {
+    background-image: url('https://images.wallpaperscraft.com/image/single/walls_windows_minimalism_162450_1920x1200.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    flex: 1;
+    min-height: 100vh;
+}
+
+nav{
+    background-color: rgb(136, 135, 135);
+    display: flex;
+    gap: 30px;
+    font-size: large;
+    padding: 1em 3em;
+}
+.futer {
+  color:black;
+  width: 100%;
+  height: 81px;
+  position: relative;
+  bottom: 0;
+}
+
+.planilla {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    padding: 1em;
+}
+.img1 {
+    width: 150px;
+    border-radius: 10px;
+    margin: 15px;
+}
+.img2 {
+    width: 500px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+#basic-navbar-nav {
+  justify-content: flex-end;
+}
+#navbar-bootstrap {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
